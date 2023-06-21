@@ -1,0 +1,37 @@
+/* ********* ENVÍOS COMPONENTES ********* */
+
+.divEnvios {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	text-align: justify;
+	color: $color_3;
+	margin-bottom: 40px;
+
+	p {
+		margin-top: 5px;
+		padding: 0 15%;
+	}
+}
+
+.logos {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	text-align: center;
+	margin-top: 20px;
+	flex-wrap: wrap;
+}
+
+.envios {
+	margin-inline: 50px;
+	flex-direction: row;
+	text-align: center;
+}
+
+.envioLogo {
+	width: 150px;
+	height: 150px;
+	background-color: $background-color_3;
+	border-radius: 5px;
+}

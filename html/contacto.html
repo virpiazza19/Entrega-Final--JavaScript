@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Descripción Meta -->
+    <meta name="description"
+        content="Contactate con Tu Alfombra SAP para conocer más sobre nuestros productos, sacarte todas las dudas y elegir al mejor productos de artículos de seguridad e higiene del país.">
+    <!-- Keywords Meta -->
+    <meta name="keywords" content="ALFOMBRA, TAPATE, SEGURIDAD, HIGIENE, DISEÑOS PERSONALIZADOS, ARGENTINA">
+    <!-- Link Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- LINK AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+    <link rel="shortcut icon" href="img/LogoPagina.svg" type="image/x-icon">
+    <title>Tu Alfombra - Contacto</title>
+</head>
+
+<body class="h-100">
+    <!-- HEADER CONTACTO -->
+    <header>
+        <nav class="navbar bg-body-tertiary navbar-expand-lg fixed-top background-color navbar-dark bg-dark"
+            data-bs-theme="dark">
+            <div class="container-fluid">
+                <img data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="750" class="logo" src="../img/LogoPagina.svg" alt="Tu alfombra logo">
+                <span class="tituloNavbar">Tu Alfombra</span>
+                
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <span class="offcanvas-title" id="offcanvasNavbarLabel">Tu Alformbra</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="envios.html">Envíos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="preguntasFrecuentes.html">Preguntas Frecuentes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN CONTACTO -->
+    <main>
+        <div class="divContacto">
+            <h1 data-aos="fade-down" data-aos-easing="linear" data-aos-duration="750" class="h1Titulo">Contacto</h1>
+            <p>Dejanos tu mensaje y nos estaremos contactando a la brevedad.</p>
+
+            <form class="formDiv" id="formMensajes">
+                <div class="mb-3">
+                    <label for="name" class="form-label formFonts">Nombre</label>
+                    <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre" id="name" required>
+                </div>
+                <div class="mb-3">
+                    <label for="lastname" class="form-label formFonts">Apellido</label>
+                    <input type="text" name="apellido" class="form-control" placeholder="Ingrese su apellido" id="lastname" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label formFonts">Mail</label>
+                    <input type="email" name="mail" class="form-control" placeholder="Ingrese su email" id="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="phone" class="form-label formFonts">Teléfono</label>
+                    <input type="tel" name="telefono" class="form-control" placeholder="Ingrese su teléfono con código de área"
+                        id="phone" required>
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Mensaje</label>
+                    <textarea class="form-control" name="mensaje" placeholder="Deje su mensaje" id="message" rows="3" required></textarea>
+                </div>
+                <div><input type="submit" class="button" label="Enviar">
+                    <input type="reset" class="button" label="Resetear">
+                </div>
+            </form>
+        </div>
+    </main>
+    <!-- FOOTER CONTACTO -->
+    <footer class="footer py-3 my-4">
+        <ul class="nav justify-content-center pb-3 mb-3">
+            <li class="nav-item nav-link">|</li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.instagram.com/tualfombrasap/">Instagram</a>
+            </li>
+            <li class="nav-item nav-link">|</li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://www.facebook.com/tualfombrasap">Facebook</a>
+            </li>
+            <li class="nav-item nav-link">|</li>
+            <li class="nav-item"><a class="nav-link" target="_blank" href="https://api.whatsapp.com/send?phone=%2B541137887741&data=AWD5gFalD5Orzzf6gATAIVUNjUsXgaqsMQjN2ypteGQ4aOy6MZZBMsm2gW_GWXab0W3czeeqxqoOagjhsZdQDohCNQY5lhICq4IFBUsdPerwSIawHhqa3VKjPL-lTg9JyqhHuaPWYMym1OcSY7OhGWjdpytLEYrWz2bfh7VeH9xd3rW8Dzb47P5ReYpZyzgkEDC2hYMQ-hGMBehJ3wf_0WIEY3sGuHSoGJoz6IzEygXTN_GUR304eVhnbA2taVxC1nHyTuzpH5Ed9SSIQ8U&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3SHKYzFb5ZpUOyR53WnRqqnQsJhB_GAH1hM8uAWZSq_sG3W-W36ZOxvLw">Whatsapp</a>
+            </li>
+            <li class="nav-item nav-link">|</li>
+        </ul>
+        <p class="text-center">© 2023 Tu Alfombra SAP</p>
+    </footer>
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <!-- Script AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Script JS -->
+    <script src="../js/contacto.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,93 @@
+@mixin links {
+	color: $color_1;
+	text-decoration: none;
+	text-decoration-color: firebrick;
+	font-size: 20px;
+}
+@mixin navbar {
+	height: 100px;
+	margin: 0;
+	padding: 0;
+}
+
+/* ********* HEADER/NAVBAR ********* */
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 5%;
+	background-color: $background-color_2;
+	font-family: $font-family_1;
+}
+
+.nav-link {
+	@include links;
+
+	&:hover {
+		color: $color_2;
+		text-decoration-line: 1px solid white;
+	}
+}
+
+.active {
+	color: $color_2 !important;
+
+	&:hover {
+		color: $color_3;
+	}
+}
+
+.offcanvas {
+	background-color: $background-color_2;
+	color: $color_3;
+}
+
+.navbar-toggler {
+	margin-right: 1rem;
+}
+
+.offcanvas-title {
+	font-size: 2rem;
+}
+
+.background-color {
+	background-color: $background-color_2;
+}
+
+.container-fluid {
+	background-color: $background-color_2;
+	@include navbar;
+}
+
+.navbar {
+	@include navbar;
+}
+
+.bg-body-tertiary {
+	@include navbar;
+}
+
+.navbar-expand-lg {
+	@include navbar;
+}
+
+.fixed-top {
+	@include navbar;
+}
+
+.logo {
+	width: 60px;
+	height:60px;
+	padding-left: 1rem;
+}
+
+.tituloNavbar {
+	font-size: 40px;
+	color: $color_1;
+	margin-left: 30px;
+	
+	&:hover {
+		font-size: 55px;
+		margin-left: 15px;
+	}
+}

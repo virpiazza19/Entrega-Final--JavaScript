@@ -1,0 +1,116 @@
+/* ********* CONTACTO COMPONENTES ********* */
+
+.divContacto {
+	margin: 70px 0 20px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: $color_3;
+	text-align: center;
+
+	h1 {
+		width: 80%;
+		text-align: center;
+	}
+
+	p {
+		width: 80%;
+		text-align: center;
+		font-size: 1.2rem;
+	}
+}
+
+.formDiv {
+	background-color: $background-color_2;
+	border: 2px solid white;
+	padding: 40px;
+	margin-top: 15px;
+	width: 80%;
+	max-width: 600px;
+	min-width: 300px;
+	text-align: left;
+}
+
+.formFonts {
+	font-family: $font-family_2;
+	color: $color_3;
+}
+
+#message {
+	max-width: 500px;
+	max-height: 200px;
+	min-height: 200px;
+	padding: 5px;
+	margin-top: 5px;
+	background-color: $background-color_4;
+	border: 1px solid rgb(246, 207, 207);
+	color: $color_3;
+
+	&:focus{
+		color: white;
+		border: 1px solid $color_2;
+		background-color: $background-color_4;
+		box-shadow: none;
+	}
+}
+
+form {
+	&::placeholder {
+		color: $color_4;
+		opacity: 1;
+	}
+}
+
+input {
+	height: 30px;
+	padding: 2px 5px 2px 5px;
+	margin-top: 5px;
+	background-color: $background-color_4;
+	border: 1px solid rgb(246, 207, 207);
+	color: $color_3;
+	max-width: 500px;
+}
+
+.form-control {
+	height: 30px;
+	padding: 2px 5px 2px 5px;
+	margin-top: 5px;
+	background-color: $background-color_4;
+	border: 1px solid rgb(246, 207, 207);
+	color: $color_3;
+	max-width: 500px;
+
+	&:focus{
+		color: white;
+		border: 1px solid $color_2;
+		background-color: $background-color_4;
+		box-shadow: none;
+	}
+
+	&::placeholder {
+		color: $color_4;
+		opacity: 1;
+	}
+}
+
+.button {
+	width: 100px;
+	height: 30px;
+	border: 1px solid firebrick;
+	border-radius: 5px;
+	margin-right: 10px;
+
+	&:hover {
+		background-color: $background-color_5;
+		color: $color_5;
+	}
+	&:disabled{
+		color:$color_5;
+		background-color: $background-color_6;
+	}
+	&:disabled:hover{
+		background-color: $background-color_6;
+		color: $color_5;
+	}
+}

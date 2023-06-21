@@ -1,0 +1,64 @@
+
+/* ********* GENERALES ********* */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 160px;
+}
+
+body {
+	background-color: $background-color_1;
+	margin-bottom: 160px;
+}
+
+.h1Titulo {
+	font-family: $font-family_1;
+	text-align: center;
+	margin: 5px 10%;
+	font-size: 3.5rem;
+	color: $color_3;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+	border-bottom: 2px solid black;
+}
+
+p {
+	color: $color_1;
+	padding: 5px;
+	font-family: $font-family_2;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.parrafoGeneral {
+	padding: 0px 10%;
+	margin-bottom: 20px;
+	text-align: justify;
+}
+
+.subtituloGeneral {
+	font-family: $font-family_2;
+	margin: 5px 10%;
+	font-size: 2rem;
+	color: $color_3;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+}
+
+.underSubtituloGeneral {
+	font-family: $font-family_2;
+	margin: 5px 10%;
+	font-size: 2rem;
+	color: $color_3;
+	text-align: center;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000, -1px -1px 0 #000;
+	border-bottom: 2px solid black;
+}
+
+.subclase {
+	border-bottom: none;
+}

@@ -1,0 +1,33 @@
+.carrito{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    background-color: $background-color_6;
+    border-radius: 50%;
+    border: 2px solid $background-color_3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1;
+
+    span{
+        color: $color_1;
+        background-color: $color_6;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        width: 22px;
+        height: 22px;
+        font-family: $font-family_2;
+        font-size: 16px;
+        border-radius: 50%;
+        text-align: center;
+
+    }
+
+    i{
+        padding: 8px 5px 0px 0px;
+    }
+}
